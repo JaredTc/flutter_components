@@ -29,10 +29,25 @@ class AppTheme{
 
       elevatedButtonTheme: ElevatedButtonThemeData(
          style: ElevatedButton.styleFrom(
-             primary: Colors.indigo,
-             shape: const StadiumBorder(),
-             elevation: 0,
+            primary: Colors.indigo,
+            shape: const StadiumBorder(),
+            elevation: 0,
            )
+      ),
+
+
+      inputDecorationTheme:  const InputDecorationTheme(
+        labelStyle: TextStyle(color: primary),
+        enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide( color: primary  ),
+          borderRadius: BorderRadius.only(  bottomLeft: Radius.circular(10),
+          topRight: Radius.circular(10))
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide( color: primary  ),
+          borderRadius: BorderRadius.only(  bottomLeft: Radius.circular(10),
+          topRight: Radius.circular(10))
+        )
       )
 
       );
@@ -40,17 +55,10 @@ class AppTheme{
 
 
   static final ThemeData DarkTheme = ThemeData.dark().copyWith(
-
         primaryColor: Colors.limeAccent,
         appBarTheme: const AppBarTheme(
           color: primary
         ),
-
-        
-
       );
-
-
-    
 
 }

@@ -8,3 +8,5 @@ export 'package:components/screens/screens.dart';
 export 'package:components/screens/avatar_screen.dart';
 export 'package:components/screens/animated_screen.dart';
 
+export 'package:components/screens/inputs_screen.dart';
+
