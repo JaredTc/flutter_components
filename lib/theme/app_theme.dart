@@ -1,7 +1,4 @@
 
-
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -43,12 +40,14 @@ class AppTheme{
           borderRadius: BorderRadius.only(  bottomLeft: Radius.circular(10),
           topRight: Radius.circular(10))
         ),
+        
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide( color: primary  ),
           borderRadius: BorderRadius.only(  bottomLeft: Radius.circular(10),
           topRight: Radius.circular(10))
         )
       )
+      
 
       );
       

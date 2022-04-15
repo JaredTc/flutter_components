@@ -41,6 +41,10 @@ class AppRoutes{
     icon: Icons.input_rounded,
     name: 'Text Inputs', 
     screen: const InputScreen()),
+    MenuOption(route: 'InputsText', 
+    icon: Icons.input_rounded,
+    name: 'Inputs Texts', 
+    screen:  InputText()),
   ];
 
 
