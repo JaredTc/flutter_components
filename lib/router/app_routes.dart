@@ -45,6 +45,10 @@ class AppRoutes{
     icon: Icons.input_rounded,
     name: 'Inputs Texts', 
     screen:  InputText()),
+    MenuOption(route: 'slider', 
+    icon: Icons.slow_motion_video_rounded,
+    name: 'Sliders and Checks', 
+    screen:  SliderScreen()),
   ];
 
 
