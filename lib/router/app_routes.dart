@@ -49,6 +49,10 @@ class AppRoutes{
     icon: Icons.slow_motion_video_rounded,
     name: 'Sliders and Checks', 
     screen:  SliderScreen()),
+    MenuOption(route: 'listviewbuilder', 
+    icon: Icons.build_circle_outlined,
+    name: 'Infinite Scroll', 
+    screen:  ListViewBuilderScreen()),
   ];
 
 
